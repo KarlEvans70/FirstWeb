@@ -1,0 +1,342 @@
+
+
+/* * {
+    img
+    width: 100%;
+    font-size: 70px;
+    text-align: center; */
+/* } */
+
+.background {
+    background-image: url("Images/Home\ Screen\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background2 { 
+    background-image: url("Images/About\ Us\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background3 {
+    background-image: url("Images/globe2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background4 {
+    background-image: url("Images/DubaiBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background5 {
+    background-image: url("Images/ItalyBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background6 {
+    background-image: url("Images/SingBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background7 {
+    background-image: url("Images/ThaiBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background8 {
+    background-image: url("Images/Phuket.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background9 {
+    background-image: url("Images/KohSamui.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background10 {
+    background-image: url("Images/Bankgkok.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background11 {
+    background-image: url("Images/Rome.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background12 {
+    background-image: url("Images/Venice.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background13 {
+    background-image: url("Images/Florence.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background14 {
+    background-image: url("Images/Burj\ Khalifa.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background15 {
+    background-image: url("Images/Thepalm.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background16 {
+    background-image: url("Images/BurjAlArab.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background17 {
+    background-image: url("Images/Grandprix.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background18 {
+    background-image: url("Images/Gardens.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background19 {
+    background-image: url("Images/Marinabay.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    float: left;
+
+    
+    width:  220px;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid gray;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block2 {
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+h1 {
+    color:#fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0 0 0;
+    padding: 20px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.pageheader {
+    text-decoration: none;
+    color: rgba(red, green, blue, alpha);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.text {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-size: large;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+/* p {
+    font-family: 'concert One', cursive;
+    font-size: 22px; 
+} */
+
+#header {
+    font-size: 20px;
+    font-family: 'monospace', cursive;
+    text-align: right;
+    flex-direction: column;
+    justify-content:baseline;
+}
+
+.contact {
+    font-size: 15px;
+    font-family:'Trebuchet MS';
+    text-align:start;
+    color:cornflowerblue;
+}
+
+/* .Welcome {
+    font-size: 25px;
+    font-family:'Trebuchet MS';
+    color:cornflowerblue;
+}
+
+.button {
+    font-size: 20px;
+    font-family:'Trebuchet MS';
+    color:darkblue;
+}
+
+.links {
+    font-size: 18px;
+    font-family:'Trebuchet MS';
+    color:cornflowerblue;
+} */
+
+.itimg {
+    image-orientation: from-image;
+}
+
+.image {
+    position: relative;
+    width: 400px;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position:absolute;
+    top: 17px;
+    bottom: 0;
+    left: -1px;
+    right: -1px;
+    /* width: 100%;
+    height: 100%; */
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* .image__title a {
+    text-decoration: none;
+    color: white;
+} */
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 01.25em;
+}
+
+a{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-area{
+    background: #262626;
+}
+.nav-area:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.nav-area ul{
+    list-style: none;
+    margin: 0;
+}
+.nav-area > ul > li{
+    float: left;
+    position: relative;
+}
+.nav-area ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+.nav-area ul li:hover a{
+    background: #34495a;
+}
+.nav-area ul ul{
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+.nav-area ul li:hover > ul{
+    display: block;
+}
+.nav-area ul ul li:hover a{
+    background: #262626;
+}
+.nav-area ul ul li{
+    position: relative;
+}
+.nav-area ul ul ul{
+    top: 0;
+    left: 100%;
+}
+
+.nav-area ul ul ul li:hover a{
+    background: #34495a;
+}
+
